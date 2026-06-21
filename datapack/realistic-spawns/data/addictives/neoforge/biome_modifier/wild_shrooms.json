@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": ["minecraft:dark_forest","minecraft:forest","minecraft:birch_forest","minecraft:old_growth_birch_forest","minecraft:flower_forest","minecraft:swamp","minecraft:mangrove_swamp"],
+  "features": "addictives:wild_shrooms",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_savanna",
+  "features": "addictives:wild_tobacco",
+  "step": "vegetal_decoration"
+}

@@ -24,3 +24,12 @@ A small Create-based drug/brewing modpack for playing with friends.
 ## Multiplayer
 This is a Java-only modpack (Bedrock can't join). Everyone needs the exact mods above.
 Ask the host for the current server address.
+
+## Custom tweaks (the `datapack/realistic-spawns` datapack)
+This modpack includes a custom datapack that changes Addictives' wild plants:
+- **Realistic biome spawns:** weed→jungles, coca→windswept mountains, poppy→plains/meadow, tobacco→savanna, shrooms→forests/swamps.
+- **Findable spawn rate:** wild plants spawn ~37× more often in their biome (rarity 300 → 8).
+- **5% bonus seed:** harvesting a mature crop has a 5% chance to drop an extra seed.
+
+**Use it (singleplayer):** download `realistic-spawns.zip` from the Release, then on **Create New World → Data Packs**, drag it in. (Only affects newly generated land.)
+The multiplayer server already has it applied.
