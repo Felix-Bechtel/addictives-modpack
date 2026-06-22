@@ -1,3 +1,15 @@
+# Addictives Modpack (Minecraft 1.21.1 / NeoForge)
+
+## EASIEST: auto-download on join (AutoModpack)
+1. Install **Minecraft Java Edition** and run **1.21.1** once.
+2. Install **NeoForge 1.21.1** from https://neoforged.net/
+3. Download **AutoModpack** (one jar) from this repo's Release (`automodpack-mc1.21.1-neoforge-4.0.5.jar`) and put it in your `mods` folder
+   (Windows: `%appdata%\\.minecraft\\mods`, Mac: `~/Library/Application Support/minecraft/mods`).
+4. Launch the NeoForge profile → **Multiplayer** → join the server address (ask the host).
+5. AutoModpack will **prompt you to download the modpack** → click yes → it installs all the other mods and restarts your game. Done!
+
+---
+
 # Addictives Modpack (Minecraft 1.21.1 · NeoForge)
 
 A small Create-based drug/brewing modpack for playing with friends.
