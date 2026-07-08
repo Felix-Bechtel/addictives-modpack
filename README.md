@@ -12,8 +12,8 @@ A small Create-based drug/brewing modpack with custom spawn/seed tweaks + perfor
 - Open the launcher and **play version 1.21.1 once**, then close it.
 
 ## Step 2 — Install NeoForge (the mod loader)
-1. Go to **https://neoforged.net/** → downloads → get **1.21.1**, version **21.1.233**.
-2. You'll get a file like `neoforge-21.1.233-installer.jar`.
+1. Go to **https://neoforged.net/** → downloads → get **1.21.1**, version **21.1.235**.
+2. You'll get a file like `neoforge-21.1.235-installer.jar`.
 3. **Double-click it** → choose **"Install client"** → **OK**.
    - If it won't open, install Java 21 first from **https://adoptium.net**, then retry.
 
@@ -56,7 +56,7 @@ Copy all the `.jar` files from the unzipped folder **into the `mods` folder**. I
 
 ## Step 8 — Join the server
 1. **Multiplayer → Add Server**.
-2. **Server Address:** ask the host for the current `bore.pub:XXXXX` address.
+2. **Server Address:** use **`51.79.109.64:25592`** (24/7 PebbleHost server).
 3. **Done** → double-click to join. 🎉
 
 ### ⚠️ Troubleshooting
