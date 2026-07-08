@@ -25,7 +25,7 @@ A small Create-based drug/brewing modpack with custom spawn/seed tweaks + perfor
 ## Step 4 — Unzip it
 - **Windows:** right-click `friends-modpack.zip` → **Extract All** → Extract.
 - **Mac:** double-click the zip.
-- You now have a folder with **8 `.jar` files**.
+- You now have a folder with **10 `.jar` files**.
 
 ## Step 5 — ⭐ Find the `mods` folder (the key step)
 **Windows:**
@@ -48,6 +48,8 @@ Copy all the `.jar` files from the unzipped folder **into the `mods` folder**. I
 - `embeddium-1.0.15+mc1.21.1.jar`
 - `modernfix-neoforge-5.27.14+mc1.21.1.jar`
 - `ferritecore-7.0.3-neoforge.jar`
+- `jegn-1.7.3+neoforge1.21.1.jar`
+- `geckolib-neoforge-1.21.1-4.9.2.jar`
 
 ## Step 7 — Launch with NeoForge
 1. Open the Minecraft launcher.
@@ -78,6 +80,8 @@ Copy all the `.jar` files from the unzipped folder **into the `mods` folder**. I
 | Embeddium (FPS boost) | 1.0.15 | https://modrinth.com/mod/embeddium |
 | ModernFix (performance) | 5.27.14 | https://modrinth.com/mod/modernfix |
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
+| Just Enough Guns (balanced craftable guns + vests) | 1.7.3 | https://modrinth.com/mod/just-enough-guns-neoforge |
+| GeckoLib (required by JEG) | 4.9.2 | https://modrinth.com/mod/geckolib |
 
 > Performance tip: set **Video Settings → Max Framerate → Unlimited**.
 
