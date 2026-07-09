@@ -5,6 +5,8 @@ A small Create-based drug/brewing modpack + realistic plant spawns + realistic p
 
 > ⚠️ **EXACT versions matter.** You must use **Minecraft 1.21.1** and **NeoForge 21.1.235** — not any other build. If your NeoForge is even one number off (e.g. 21.1.233), the server will reject you with *"Incompatible client."*
 
+📖 **[Full gameplay guide: plants, drugs, meth & booze →](GUIDE.md)**
+
 **Server address:** `51.79.109.64:25592`
 
 ---
