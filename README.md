@@ -1,6 +1,6 @@
 # Addictives Modpack — Minecraft 1.21.1 · NeoForge 21.1.235
 
-A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced guns (TACZ).
+A small Create-based drug/brewing modpack + realistic plant spawns + realistic plant spawns.
 **Java Edition only — Bedrock CANNOT join.**
 
 > ⚠️ **EXACT versions matter.** You must use **Minecraft 1.21.1** and **NeoForge 21.1.235** — not any other build. If your NeoForge is even one number off (e.g. 21.1.233), the server will reject you with *"Incompatible client."*
@@ -38,7 +38,7 @@ A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced 
 ## STEP 5 — Unzip it
 - **Windows:** right-click `friends-modpack.zip` → **Extract All** → **Extract**.
 - **Mac:** double-click the zip.
-- You now have a folder containing **10 `.jar` files** (listed in Step 7).
+- You now have a folder containing **8 `.jar` files** (listed in Step 7).
 
 ## STEP 6 — Open your `mods` folder
 **Windows:**
@@ -51,8 +51,8 @@ A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced 
 2. Paste exactly: **`~/Library/Application Support/minecraft`** → press **Enter**.
 3. If there's no **`mods`** folder, create one named exactly **`mods`**.
 
-## STEP 7 — Put ALL 10 mods into the `mods` folder
-Drag **all 10 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
+## STEP 7 — Put ALL 8 mods into the `mods` folder
+Drag **all 8 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
 ```
 create-1.21.1-6.0.10.jar
 addictives-3.1.3.jar
@@ -62,10 +62,8 @@ jei-1.21.1-neoforge-19.27.0.340.jar
 embeddium-1.0.15+mc1.21.1.jar
 modernfix-neoforge-5.27.14+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
-tacz-neoforge-1.21.1-1.1.8-hotfix-r3.jar
-militaristic_armor-1.0.0-neoforge-1.21.1.jar
 ```
-> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 10 remain.
+> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 8 remain.
 
 ## STEP 8 — Launch with NeoForge
 1. Open the **Minecraft Launcher**.
@@ -79,29 +77,16 @@ militaristic_armor-1.0.0-neoforge-1.21.1.jar
 
 ---
 
-# 🔫 The Guns (TACZ) — how to use
-Only **3 guns**, all balanced:
-- **AK-47** (`ak47`) · **Glock 17** (`glock_17`) · **Sniper – Remington 700** (`m700`)
-
-They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + materials (search **`workbench`** or the gun names in **JEI**). Ammo is crafted too (`7.62`, `9mm`, `.308`). It's intentionally **hard to craft** and **not overpowered**.
-
----
-
-# 🛡️ Bulletproof? Just wear armor
-TACZ bullets respect vanilla armor — wear **iron/diamond/netherite** and it reduces gun damage (Glock fully blocked, AK ~75%, sniper ~50%). No armor mod needed.
-
----
-
 # ⚠️ Troubleshooting (read if it won't connect)
 - **"Incompatible client! Please use NeoForge 21.1.235"** → your NeoForge is the wrong version. Redo **Step 3** with exactly **21.1.235**, and pick the `NeoForge 1.21.1` profile in Step 8.
-- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 10 files in Step 7 (delete anything extra, including any `voicechat` jar).
+- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 8 files in Step 7 (delete anything extra, including any `voicechat` jar).
 - **Crash on launch (Mac)** → delete `embeddium-1.0.15+mc1.21.1.jar` from `mods` (FPS mod, unstable on some Macs). Everything else still works — the server doesn't need it.
 - **Server unreachable** → the host's server must be online.
 - **Bedrock can't join** → Java Edition only.
 
 ---
 
-## Mods (10)
+## Mods (8)
 | Mod | Version | Source |
 |-----|---------|--------|
 | Create | 1.21.1-6.0.10 | https://modrinth.com/mod/create |
@@ -112,8 +97,6 @@ TACZ bullets respect vanilla armor — wear **iron/diamond/netherite** and it re
 | Embeddium (FPS) | 1.0.15 | https://modrinth.com/mod/embeddium |
 | ModernFix (performance) | 5.27.14 | https://modrinth.com/mod/modernfix |
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
-| TACZ — Timeless & Classics Guns (trimmed to AK-47 / Glock / M700 sniper) | 1.1.8-hotfix-r3 | https://modrinth.com/mod/tacz-1.21.1 |
-| Military Armors (tactical armor for gun mods) | 1.1.1 | https://modrinth.com/mod/military-armors |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
 
