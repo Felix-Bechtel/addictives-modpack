@@ -60,9 +60,9 @@ create-1.21.1-6.0.10.jar
 addictives-3.1.3.jar
 createbb-1.1.3.jar
 dinobriks-rum-2.0.jar
-jei-1.21.1-neoforge-19.27.0.340.jar
+jei-1.21.1-neoforge-19.32.0.359.jar
 embeddium-1.0.15+mc1.21.1.jar
-modernfix-neoforge-5.27.14+mc1.21.1.jar
+modernfix-neoforge-5.27.15+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
 ```
 > If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 8 remain.
@@ -95,9 +95,9 @@ ferritecore-7.0.3-neoforge.jar
 | Create: Addictives | 3.1.3 | https://www.curseforge.com/minecraft/mc-mods/create-addictives |
 | Create: Broken Bad (ReBroken) | 1.1.3 | https://modrinth.com/mod/create-broken-bad-fabric |
 | DinoBriks Rum | 2.0 | https://modrinth.com/mod/dinobriks-rum |
-| JEI | 1.21.1-19.27.0.340 | https://modrinth.com/mod/jei |
+| JEI | 1.21.1-19.32.0.359 | https://modrinth.com/mod/jei |
 | Embeddium (FPS) | 1.0.15 | https://modrinth.com/mod/embeddium |
-| ModernFix (performance) | 5.27.14 | https://modrinth.com/mod/modernfix |
+| ModernFix (performance) | 5.27.15 | https://modrinth.com/mod/modernfix |
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
