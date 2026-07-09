@@ -4,6 +4,7 @@ A small Create-based drug/brewing modpack + realistic plant spawns + backported 
 **Java Edition only — Bedrock CANNOT join.**
 
 > ⚠️ **EXACT versions matter.** You must use **Minecraft 1.21.1** and **NeoForge 21.1.235** — not any other build. If your NeoForge is even one number off (e.g. 21.1.233), the server will reject you with *"Incompatible client."*
+> **Do NOT install NeoForge for 1.21.11** — the server is 1.21.1. The new 1.21.11 content (Pale Garden, copper golems, happy ghasts) is already included via the backport mods in this pack.
 
 📖 **[Full gameplay guide: plants, drugs, meth & booze →](GUIDE.md)**
 
