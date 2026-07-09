@@ -38,7 +38,7 @@ A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced 
 ## STEP 5 — Unzip it
 - **Windows:** right-click `friends-modpack.zip` → **Extract All** → **Extract**.
 - **Mac:** double-click the zip.
-- You now have a folder containing **9 `.jar` files** (listed in Step 7).
+- You now have a folder containing **10 `.jar` files** (listed in Step 7).
 
 ## STEP 6 — Open your `mods` folder
 **Windows:**
@@ -63,6 +63,7 @@ embeddium-1.0.15+mc1.21.1.jar
 modernfix-neoforge-5.27.14+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
 tacz-neoforge-1.21.1-1.1.8-hotfix-r3.jar
+bullerproof_armor_system_mod-1.0.1.jar
 ```
 > If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 9 remain.
 
@@ -95,7 +96,7 @@ They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + ma
 
 ---
 
-## Mods (9)
+## Mods (10)
 | Mod | Version | Source |
 |-----|---------|--------|
 | Create | 1.21.1-6.0.10 | https://modrinth.com/mod/create |
@@ -107,6 +108,7 @@ They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + ma
 | ModernFix (performance) | 5.27.14 | https://modrinth.com/mod/modernfix |
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
 | TACZ — Timeless & Classics Guns (trimmed to AK-47 / Glock / M700 sniper) | 1.1.8-hotfix-r3 | https://modrinth.com/mod/tacz-1.21.1 |
+| Bulletproof Armor System (TACZ-compatible vests/armor tiers) | 1.0.1 | https://modrinth.com/mod/bullerproof-armorsystem-mod |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
 
