@@ -63,7 +63,7 @@ embeddium-1.0.15+mc1.21.1.jar
 modernfix-neoforge-5.27.14+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
 tacz-neoforge-1.21.1-1.1.8-hotfix-r3.jar
-bullerproof_armor_system_mod-1.0.1.jar
+ncx_tacadd-1.3.3-neoforge-1.21.1.jar
 ```
 > If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 10 remain.
 
@@ -108,7 +108,7 @@ They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + ma
 | ModernFix (performance) | 5.27.14 | https://modrinth.com/mod/modernfix |
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
 | TACZ — Timeless & Classics Guns (trimmed to AK-47 / Glock / M700 sniper) | 1.1.8-hotfix-r3 | https://modrinth.com/mod/tacz-1.21.1 |
-| Bulletproof Armor System (TACZ-compatible vests/armor tiers) | 1.0.1 | https://modrinth.com/mod/bullerproof-armorsystem-mod |
+| NCX Tactical Additions (armor, grenades, NVGs, medical gear) | 1.3.3 | https://modrinth.com/mod/ncx-tacadd |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
 
