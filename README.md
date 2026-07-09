@@ -38,7 +38,7 @@ A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced 
 ## STEP 5 — Unzip it
 - **Windows:** right-click `friends-modpack.zip` → **Extract All** → **Extract**.
 - **Mac:** double-click the zip.
-- You now have a folder containing **10 `.jar` files** (listed in Step 7).
+- You now have a folder containing **11 `.jar` files** (listed in Step 7).
 
 ## STEP 6 — Open your `mods` folder
 **Windows:**
@@ -51,8 +51,8 @@ A small Create-based drug/brewing modpack + realistic plant spawns + 3 balanced 
 2. Paste exactly: **`~/Library/Application Support/minecraft`** → press **Enter**.
 3. If there's no **`mods`** folder, create one named exactly **`mods`**.
 
-## STEP 7 — Put ALL 10 mods into the `mods` folder
-Drag **all 10 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
+## STEP 7 — Put ALL 11 mods into the `mods` folder
+Drag **all 11 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
 ```
 create-1.21.1-6.0.10.jar
 addictives-3.1.3.jar
@@ -64,8 +64,9 @@ modernfix-neoforge-5.27.14+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
 tacz-neoforge-1.21.1-1.1.8-hotfix-r3.jar
 ncx_tacadd-1.3.3-neoforge-1.21.1.jar
+curios-neoforge-9.5.1+1.21.1.jar
 ```
-> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 10 remain.
+> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 11 remain.
 
 ## STEP 8 — Launch with NeoForge
 1. Open the **Minecraft Launcher**.
@@ -89,14 +90,14 @@ They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + ma
 
 # ⚠️ Troubleshooting (read if it won't connect)
 - **"Incompatible client! Please use NeoForge 21.1.235"** → your NeoForge is the wrong version. Redo **Step 3** with exactly **21.1.235**, and pick the `NeoForge 1.21.1` profile in Step 8.
-- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 10 files in Step 7 (delete anything extra, including any `voicechat` jar).
+- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 11 files in Step 7 (delete anything extra, including any `voicechat` jar).
 - **Crash on launch (Mac)** → delete `embeddium-1.0.15+mc1.21.1.jar` from `mods` (FPS mod, unstable on some Macs). Everything else still works — the server doesn't need it.
 - **Server unreachable** → the host's server must be online.
 - **Bedrock can't join** → Java Edition only.
 
 ---
 
-## Mods (10)
+## Mods (11)
 | Mod | Version | Source |
 |-----|---------|--------|
 | Create | 1.21.1-6.0.10 | https://modrinth.com/mod/create |
@@ -109,6 +110,7 @@ They're crafted at TACZ's **Workbench (gun-smithing table)** from gun parts + ma
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
 | TACZ — Timeless & Classics Guns (trimmed to AK-47 / Glock / M700 sniper) | 1.1.8-hotfix-r3 | https://modrinth.com/mod/tacz-1.21.1 |
 | NCX Tactical Additions (armor, grenades, NVGs, medical gear) | 1.3.3 | https://modrinth.com/mod/ncx-tacadd |
+| Curios API (required by NCX) | 9.5.1 | https://modrinth.com/mod/curios |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
 
