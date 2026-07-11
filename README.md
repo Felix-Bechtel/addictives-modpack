@@ -41,7 +41,7 @@ A small Create-based drug/brewing modpack + realistic plant spawns.
 ## STEP 5 — Unzip it
 - **Windows:** right-click `friends-modpack.zip` → **Extract All** → **Extract**.
 - **Mac:** double-click the zip.
-- You now have a folder containing **8 `.jar` files** (listed in Step 7).
+- You now have a folder containing **10 `.jar` files** (listed in Step 7).
 
 ## STEP 6 — Open your `mods` folder
 **Windows:**
@@ -54,8 +54,8 @@ A small Create-based drug/brewing modpack + realistic plant spawns.
 2. Paste exactly: **`~/Library/Application Support/minecraft`** → press **Enter**.
 3. If there's no **`mods`** folder, create one named exactly **`mods`**.
 
-## STEP 7 — Put ALL 8 mods into the `mods` folder
-Drag **all 8 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
+## STEP 7 — Put ALL 10 mods into the `mods` folder
+Drag **all 10 `.jar` files** from the unzipped folder into `mods`. It must contain EXACTLY these (no more, no less):
 ```
 create-1.21.1-6.0.10.jar
 addictives-3.1.3.jar
@@ -65,8 +65,10 @@ jei-1.21.1-neoforge-19.32.0.359.jar
 embeddium-1.0.15+mc1.21.1.jar
 modernfix-neoforge-5.27.15+mc1.21.1.jar
 ferritecore-7.0.3-neoforge.jar
+realisticspawns-1.0.0.jar
+cartelcontinents-1.1.13.jar
 ```
-> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 8 remain.
+> If you already had OLD mods in there (or `voicechat`), **delete them first** so only these 10 remain.
 
 ## STEP 8 — Launch with NeoForge
 1. Open the **Minecraft Launcher**.
@@ -82,14 +84,14 @@ ferritecore-7.0.3-neoforge.jar
 
 # ⚠️ Troubleshooting (read if it won't connect)
 - **"Incompatible client! Please use NeoForge 21.1.235"** → your NeoForge is the wrong version. Redo **Step 3** with exactly **21.1.235**, and pick the `NeoForge 1.21.1` profile in Step 8.
-- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 8 files in Step 7 (delete anything extra, including any `voicechat` jar).
+- **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 10 files in Step 7 (delete anything extra, including any `voicechat` jar).
 - **Crash on launch (Mac)** → delete `embeddium-1.0.15+mc1.21.1.jar` from `mods` (FPS mod, unstable on some Macs). Everything else still works — the server doesn't need it.
 - **Server unreachable** → the host's server must be online.
 - **Bedrock can't join** → Java Edition only.
 
 ---
 
-## Mods (8)
+## Mods (8) + 2 built-in feature packs
 | Mod | Version | Source |
 |-----|---------|--------|
 | Create | 1.21.1-6.0.10 | https://modrinth.com/mod/create |
@@ -102,6 +104,13 @@ ferritecore-7.0.3-neoforge.jar
 | FerriteCore (less RAM) | 7.0.3 | https://modrinth.com/mod/ferrite-core |
 
 > Tip: **Video Settings → Max Framerate → Unlimited** for better FPS.
+
+### Built-in feature packs (bundled, no setup)
+| Jar | What it does |
+|-----|--------------|
+| `realisticspawns-1.0.0.jar` | Wild drug plants spawn in the right biomes (~1 per 20 chunks) + balanced seed drops (1 seed + 5% bonus). Applies to your own singleplayer worlds automatically. |
+| `cartelcontinents-1.1.13.jar` | Ocean-separated **continents** worldgen — applies to **new** singleplayer worlds you create. |
+> On the **server**, these features are already active for everyone. These two jars give you the same thing in your **own singleplayer** worlds. If you ever can't connect to the server, delete these two — they're only needed for singleplayer.
 
 ## Custom plant spawns (`realistic-spawns` datapack — already on the server)
 - **Biomes:** weed→jungles · coca→windswept hills · poppy→plains/meadow · tobacco→savanna · shrooms→forests/swamps
