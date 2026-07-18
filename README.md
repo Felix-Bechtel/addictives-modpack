@@ -1,9 +1,9 @@
-# Addictives Modpack — Minecraft 1.21.1 · NeoForge 21.1.235
+# Addictives Modpack — Minecraft 1.21.1 · NeoForge 21.1.240
 
 A small Create-based drug/brewing modpack + realistic plant spawns.
 **Java Edition only — Bedrock CANNOT join.**
 
-> ⚠️ **EXACT versions matter.** You must use **Minecraft 1.21.1** and **NeoForge 21.1.235** — not any other build. If your NeoForge is even one number off (e.g. 21.1.233), the server will reject you with *"Incompatible client."*
+> ⚠️ **EXACT versions matter.** You must use **Minecraft 1.21.1** and **NeoForge 21.1.240** — not any other build. If your NeoForge is even one number off (e.g. 21.1.233), the server will reject you with *"Incompatible client."*
 > **Do NOT install NeoForge for 1.21.11** — the server is 1.21.1.
 
 📖 **[Full gameplay guide: plants, drugs, meth & booze →](GUIDE.md)**
@@ -25,10 +25,10 @@ A small Create-based drug/brewing modpack + realistic plant spawns.
    - Go to **Installations** tab → **New installation** → set **Version = release 1.21.1** → **Create**.
 3. **Play 1.21.1 once** (let it load to the main menu), then **quit**. (This makes sure 1.21.1 files exist.)
 
-## STEP 3 — Install NeoForge 21.1.235 (the EXACT loader)
-1. Go to **https://maven.neoforged.net/#/releases/net/neoforged/neoforge/21.1.235**
-   - (Or https://neoforged.net → *Downloads* → scroll to **1.21.1** → find **21.1.235**.)
-2. Download the file named exactly: **`neoforge-21.1.235-installer.jar`**
+## STEP 3 — Install NeoForge 21.1.240 (the EXACT loader)
+1. Go to **https://maven.neoforged.net/#/releases/net/neoforged/neoforge/21.1.240**
+   - (Or https://neoforged.net → *Downloads* → scroll to **1.21.1** → find **21.1.240**.)
+2. Download the file named exactly: **`neoforge-21.1.240-installer.jar`**
 3. **Double-click** the installer.
    - If it opens a text/code editor instead of running, right-click → **Open With → Java (or "OpenJDK Platform binary")**.
 4. In the installer window: select **"Install client"** → make sure the path points to your `.minecraft` folder → click **OK**.
@@ -83,7 +83,7 @@ cartelcontinents-1.1.13.jar
 ---
 
 # ⚠️ Troubleshooting (read if it won't connect)
-- **"Incompatible client! Please use NeoForge 21.1.235"** → your NeoForge is the wrong version. Redo **Step 3** with exactly **21.1.235**, and pick the `NeoForge 1.21.1` profile in Step 8.
+- **"Incompatible client! Please use NeoForge 21.1.240"** → your NeoForge is the wrong version. Redo **Step 3** with exactly **21.1.240**, and pick the `NeoForge 1.21.1` profile in Step 8.
 - **"Outdated client/server" / mod mismatch** → your `mods` folder doesn't match. It must be EXACTLY the 10 files in Step 7 (delete anything extra, including any `voicechat` jar).
 - **Crash on launch (Mac)** → delete `embeddium-1.0.15+mc1.21.1.jar` from `mods` (FPS mod, unstable on some Macs). Everything else still works — the server doesn't need it.
 - **Server unreachable** → the host's server must be online.
